@@ -1,5 +1,3 @@
-# test2_revised.py - Fully Revised with Industry-Level Practices
-# Key Improvements:
 # 1. Abstracted Database Layer: Introduced StorageInterface for easy DB swapping (e.g., from Redis to PostgreSQL).
 # 2. Granular Permissions: Standardized to granular permissions (e.g., "user:create" instead of "user:manage") for better RBAC control.
 #    - Updated default roles to use granular permissions.
